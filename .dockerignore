@@ -1,0 +1,10 @@
+node_modules
+npm-debug.log
+Dockerfile
+docker-compose.yml
+README.md
+DEPLOYMENT.md
+client/node_modules
+server/node_modules
+client/dist
+server/volts.db

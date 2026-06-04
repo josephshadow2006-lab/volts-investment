@@ -1,0 +1,20 @@
+version: '3.9'
+services:
+  app:
+    build:
+      context: .
+    restart: unless-stopped
+    environment:
+      JWT_SECRET: supersecretjwtkey
+      JWT_EXPIRES_IN: 7d
+      EMAIL_FROM: volts@localhost
+      SMTP_HOST: smtp.example.com
+      SMTP_PORT: 587
+      SMTP_USER: user
+      SMTP_PASSWORD: password
+      ADMIN_EMAIL: admin@volts.local
+      ADMIN_PASSWORD: Admin123!
+    ports:
+      - '4000:4000'
+    volumes:
+      - ./server/volts.db:/app/volts.db

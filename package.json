@@ -1,0 +1,19 @@
+{
+  "name": "volts-platform",
+  "version": "0.1.0",
+  "private": true,
+  "workspaces": [
+    "server",
+    "client"
+  ],
+  "scripts": {
+    "install-all": "npm install --workspaces",
+    "dev": "concurrently \"npm --workspace server run dev\" \"npm --workspace client run dev\"",
+    "build": "npm --workspace client run build",
+    "start": "npm --workspace server start",
+    "serve": "npm run build && npm --workspace server start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
