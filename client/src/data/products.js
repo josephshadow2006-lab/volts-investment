@@ -1,7 +1,7 @@
 export const products = [
   {
     id: 1,
-    title: 'Volt Starter Plan (iPhone 8)',
+    title: 'Volt Starter Plan',
     price: 13000,
     dailyIncome: 1460,
     duration: 16,
@@ -10,7 +10,7 @@ export const products = [
   },
   {
     id: 2,
-    title: 'Volt Growth Plan (iPad Mini)',
+    title: 'Volt Growth Plan',
     price: 28000,
     dailyIncome: 3730,
     duration: 15,
@@ -19,7 +19,7 @@ export const products = [
   },
   {
     id: 3,
-    title: 'Volt Pro Plan (iPhone X)',
+    title: 'Volt Pro Plan ',
     price: 39000,
     dailyIncome: 2120,
     duration: 35,
@@ -28,7 +28,7 @@ export const products = [
   },
   {
     id: 4,
-    title: 'Volt Elite Plan (iPhone 11)',
+    title: 'Volt Elite Plan',
     price: 97500,
     dailyIncome: 2780,
     duration: 70,
@@ -37,7 +37,7 @@ export const products = [
   },
   {
     id: 5,
-    title: 'Volt Business Plan (MacBook)',
+    title: 'Volt Business Plan',
     price: 130000,
     dailyIncome: 4330,
     duration: 60,
@@ -46,7 +46,7 @@ export const products = [
   },
   {
     id: 6,
-    title: 'Volt Advanced Plan (iPhone 12)',
+    title: 'Volt Advanced Plan ',
     price: 208000,
     dailyIncome: 3360,
     duration: 130,
@@ -55,7 +55,7 @@ export const products = [
   },
   {
     id: 7,
-    title: 'Volt Premium Plan (iPhone 13)',
+    title: 'Volt Premium Plan ',
     price: 390000,
     dailyIncome: 4480,
     duration: 200,
@@ -64,7 +64,7 @@ export const products = [
   },
   {
     id: 8,
-    title: 'Volt Platinum Plan (iPhone 14)',
+    title: 'Volt Platinum Plan ',
     price: 650000,
     dailyIncome: 6000,
     duration: 260,
@@ -73,7 +73,7 @@ export const products = [
   },
   {
     id: 9,
-    title: 'Volt Diamond Plan (iPhone 15)',
+    title: 'Volt Diamond Plan ',
     price: 1170000,
     dailyIncome: 8120.5,
     duration: 360,
@@ -82,7 +82,7 @@ export const products = [
   },
   {
     id: 10,
-    title: 'Volt Infinity Plan (iPhone 16)',
+    title: 'Volt Infinity Plan ',
     price: 2950000,
     dailyIncome: 16400,
     duration: 500,
